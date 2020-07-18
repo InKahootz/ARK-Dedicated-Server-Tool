@@ -1,6 +1,7 @@
 ﻿using ARK_Server_Manager.Lib;
 using ARK_Server_Manager.Lib.ViewModel;
 using ARK_Server_Manager.Lib.ViewModel.RCON;
+using Microsoft.Xaml.Behaviors;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -13,7 +14,6 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Interactivity;
 using System.Windows.Media;
 using WPFSharp.Globalizer;
 

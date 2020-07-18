@@ -6,7 +6,7 @@
         xmlns:vm="clr-namespace:ARK_Server_Manager.Lib.ViewModel"
         xmlns:local="clr-namespace:ARK_Server_Manager"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
-        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         Width="1024" Height="768" ResizeMode="CanResizeWithGrip"
         SizeChanged="RCON_SizeChanged" LocationChanged="RCON_LocationChanged"
         Name="RCON" Icon="../Art/favicon.ico" Title="{Binding RCONParameters.WindowTitle}">
